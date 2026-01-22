@@ -1,0 +1,167 @@
+/* Загальний стиль */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+/* Навігація — все в один рядок */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.anav {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+.anav:hover {
+    color: #005eff;
+}
+
+.register {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background: linear-gradient(158deg, rgba(17, 53, 130, 1) 33%, rgba(0, 25, 255, 1) 51%, rgba(0, 255, 221, 1) 73%);
+    border-radius: 70px;
+    margin-left: auto; /* Притискає кнопку до правого краю */
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+/* Секція PS5 — текст зліва, картинка справа */
+.playstationaccesories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    background-color: #f3f3f3;
+}
+
+.wee {
+    font-size: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.psslim {
+    width: 600px;
+    max-width: 100%;
+}
+
+.blabla {
+    font-size: 20px;
+    color: #4885e8;
+    width: 100%;
+}
+
+.hihyn {
+    color: gray;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.moreinfo, .buy {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.moreinfo { background-color: #1252b8; }
+.buy { background-color: #f78707; }
+
+/* Секція ігор — плитка */
+.Games {
+    background-color: #171716;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.rex {
+    margin-bottom: 40px;
+}
+
+.gamess {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gamess article {
+    width: 200px;
+}
+
+.imgarcriders, .ggg, .www, .rrr, .yyy, .GTAV {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.yt {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.yt:hover {
+    opacity: 1;
+}
+
+/* Секція 30-річчя */
+.30thcentury {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.richnytsa {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.imgcentury {
+    display: block;
+    margin: 20px auto;
+}
+
+.velykebla {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.join, .History {
+    text-decoration: none;
+    color: white;
+    background-color: #1252b8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Футер — тепер він просто внизу */
+footer {
+    background-color: #0040ff;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.gararam {
+    margin: 5px 0;
+}
